@@ -1,9 +1,9 @@
-import getUser from "@/app/libs/getUser";
-import getUserPosts from "@/app/libs/getUserPosts";
+import getUser from "@/libs/getUser";
+import getUserPosts from "@/libs/getUserPosts";
 import { Suspense } from "react";
 import UserPosts from "./components/UserPosts";
 import type { Metadata } from "next";
-import getAllUsers from "@/app/libs/getAllUsers";
+import getAllUsers from "@/libs/getAllUsers";
 import { notFound } from "next/navigation";
 
 type Params = {

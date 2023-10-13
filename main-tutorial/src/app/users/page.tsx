@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import getAllUsers from "../libs/getAllUsers";
+import getAllUsers from "../../libs/getAllUsers";
 
 export default async function Users() {
   const userData: Promise<User[]> = getAllUsers();
