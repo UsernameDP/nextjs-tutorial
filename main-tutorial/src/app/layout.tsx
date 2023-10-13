@@ -21,7 +21,7 @@ export default function RootLayout({
       className=""
     >
       <body className={inter.className}>
-        <main className="bg-black w-screen h-screen relative text-white">
+        <main className="bg-black w-screen h-screen relative text-white flex flex-col">
           <nav className="flex items-center w-full bg-green-700 rounded-b-sm py-5 px-5">
             <h1 className="text-2xl">
               <Link href={"/"}>Tutorial</Link>
@@ -33,7 +33,7 @@ export default function RootLayout({
             </section>
           </nav>
 
-          <div className="p-5">{children}</div>
+          <div className="p-5 flex-auto">{children}</div>
         </main>
       </body>
     </html>

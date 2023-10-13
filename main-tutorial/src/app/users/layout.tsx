@@ -7,7 +7,7 @@ export default function RootLayout({
 }) {
   return (
     <>
-      <main className="">{children}</main>
+      <main className="w-full h-full">{children}</main>
     </>
   );
 }
